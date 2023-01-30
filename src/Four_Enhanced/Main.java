@@ -1,4 +1,4 @@
-package com.Questions.Four_Enhanced;
+package Four_Enhanced;
 
 public class Main {
     public static void main(String[] args) {

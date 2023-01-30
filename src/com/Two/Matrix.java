@@ -1,4 +1,4 @@
-package com.Questions.Two;
+package com.Two;
 
 public class Matrix {
     private int numberRows;
@@ -30,13 +30,15 @@ public class Matrix {
 
     public void addMatrix() {
         int x;
+        int[][] result;
         if ((numberRows < numberColumns) || (numberColumns < numberRows)) {
             System.out.println("Matrices cannot be added");
         }
         for (int i = 0; i<= this.numberRows; i++)
             for (int j = 0; j<=this.numberColumns; j++)
             {
-
+                x = elementsi + j;
+                int result
             }
     }
 }

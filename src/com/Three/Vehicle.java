@@ -1,4 +1,4 @@
-package com.Questions.Three;
+package com.Three;
 
 public class Vehicle
 {

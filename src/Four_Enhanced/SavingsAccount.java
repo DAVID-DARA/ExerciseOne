@@ -1,4 +1,4 @@
-package com.Questions.Four_Enhanced;
+package Four_Enhanced;
 
 class SavingsAccount {
     private static double annualInterestRate;

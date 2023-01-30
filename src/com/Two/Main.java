@@ -1,4 +1,4 @@
-package com.Questions.Two;
+package com.Two;
 
 public class Main
 {
