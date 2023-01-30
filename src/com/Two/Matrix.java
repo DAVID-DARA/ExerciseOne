@@ -37,8 +37,7 @@ public class Matrix {
         for (int i = 0; i<= this.numberRows; i++)
             for (int j = 0; j<=this.numberColumns; j++)
             {
-                x = elementsi + j;
-                int result
+
             }
     }
 }
