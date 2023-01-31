@@ -11,6 +11,11 @@ public class Main
 
         saver1.calculateMonthlyInterest();
         saver2.calculateMonthlyInterest();
+
+
+
+        saver1.calculateMonthlyInterest();
+        saver2.calculateMonthlyInterest();
     }
 
 }

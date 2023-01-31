@@ -30,14 +30,15 @@ public class Matrix {
 
     public void addMatrix() {
         int x;
-        int[][] result;
+
+        Matrix Add = new Matrix(numberRows, numberColumns);
         if ((numberRows < numberColumns) || (numberColumns < numberRows)) {
             System.out.println("Matrices cannot be added");
         }
         for (int i = 0; i<= this.numberRows; i++)
             for (int j = 0; j<=this.numberColumns; j++)
             {
-
+                Add.elements[i][j] = elements[i][j] + Add.elements[i][j];
             }
     }
 }
