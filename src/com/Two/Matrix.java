@@ -21,24 +21,26 @@ public class Matrix {
 
     public void getElements(int i, int j) {
         int value = elements[i][j];
-        System.out.println(value);
+        System.out.print(value+" ");
     }
 
     public void setElements(int i, int j, int value) {
         elements[i][j] = value;
     }
 
-    public void addMatrix() {
-        int x;
-
-        Matrix Add = new Matrix(numberRows, numberColumns);
+    public void addMatrix()
+    {
         if ((numberRows < numberColumns) || (numberColumns < numberRows)) {
             System.out.println("Matrices cannot be added");
         }
-        for (int i = 0; i<= this.numberRows; i++)
-            for (int j = 0; j<=this.numberColumns; j++)
+        Matrix result = new Matrix(numberRows, numberColumns);
+        for (int i = 0; i< this.numberRows; i++)
+            for (int j = 0; j< this.numberColumns; j++)
             {
-                Add.elements[i][j] = elements[i][j] + Add.elements[i][j];
+                this.elements[i][j] = elements[i][j] + elements[i][j];
+                System.out.println(elements[i][j]);
             }
+        System.out.print("\n");
+
     }
 }

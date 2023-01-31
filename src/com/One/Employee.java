@@ -22,7 +22,7 @@ public class Employee {
         }
     }
 
-    void addWOrk()
+    void addWork()
     {
         if (this.workingHoursPerDay > 6)
         {
@@ -39,7 +39,7 @@ public class Employee {
         Employee employee = new Employee();
         employee.getInfo(500, 7);
         employee.addSal();
-        employee.addWOrk();
+        employee.addWork();
 
     }
 
